@@ -24,7 +24,7 @@ consists of transposed convolutional and the discriminator of convolutional laye
 #### Hyperparameters
 
 The number of convolutional (resp. transposed convolutional) layers in the discriminator (resp. generator)
-is equal to 3 and the GAN was trained for 50 epochs while having a batchsize of 20. Moreover we chose 
+is equal to 3 and the GAN is trained for 50 epochs while having a batchsize of 20. Moreover I choose 
 the following parameters for the Adam optimizer for the generator and discriminator:
 * learning rate = 0.002
 * beta1 = 0.5
