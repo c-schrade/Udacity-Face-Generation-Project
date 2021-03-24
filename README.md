@@ -9,7 +9,7 @@ The task is to construct a neural network that is able to generate images of hum
 of random vectors.
 This task is approached by using a GAN model.
 
-## More precise description of the model
+## More precise Description of the Model
 
 As usual, the GAN-architecture consists of two parts: the generator and the discriminator. The
 discriminator model is fed real images of human faces and learns to distinguish between real and fake
@@ -26,6 +26,7 @@ consists of transposed convolutional and the discriminator of convolutional laye
 The number of convolutional (resp. transposed convolutional) layers in the discriminator (resp. generator)
 is equal to 3 and the GAN is trained for 50 epochs while having a batchsize of 20. Moreover I choose 
 the following parameters for the Adam optimizer for the generator and discriminator:
-* learning rate = 0.002
-* beta1 = 0.5
-* beta2 = 0.999
+
+* Learning Rate = 0.002
+* Beta1 = 0.5
+* Beta2 = 0.999
