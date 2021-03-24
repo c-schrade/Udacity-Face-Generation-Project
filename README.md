@@ -14,7 +14,7 @@ This task is approached by using a GAN model.
 As usual, the GAN-architecture consists of two parts: the generator and the discriminator. The
 discriminator model is fed real images of human faces and learns to distinguish between real and fake
 images of human faces during training. The generator model learns to generate fake images whose quality
-is that good that the discriminator struggles to distinguish them from real images. After the
+is so good that the discriminator struggles to distinguish them from real images. After the
 training process the generator is able to produce almost real looking images of human faces with the only
 input consisting of 100d random vectors.
 
