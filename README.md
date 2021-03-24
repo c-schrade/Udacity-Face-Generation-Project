@@ -21,6 +21,8 @@ input consisting of 100d random vectors.
 The GAN that is trained here is a typical deep convolutional GAN (DCGAN), i.e. the generator essentially
 consists of transposed convolutional and the discriminator of convolutional layers. 
 
+All of the code is written in python and the pytorch library is used to implement the DCGAN.
+
 ### Hyperparameters
 
 The number of convolutional (resp. transposed convolutional) layers in the discriminator (resp. generator)
